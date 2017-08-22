@@ -1,0 +1,19 @@
+<resources>
+
+     <!--    -->
+     
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+       
+    </style>
+    
+    <style name="CustomTab" parent="TextAppearance.Design.Tab">
+    <item name="android:textSize">8sp</item>
+	</style>
+	
+    <style name="StyledScrollerTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

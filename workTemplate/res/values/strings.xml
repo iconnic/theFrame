@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">ICONNIC</string>
+    <string name="action_settings">Settings</string>
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Closed</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings">Settings</string>
+    <string name="settingsdetail">Settings Detail Information</string>
+    <string name="settingsvalue">5000rmb</string>
+    <string name="settingsone">User Profile</string>
+    <string name="settingstwo">Settings Two</string>
+    <string name="settingsthree">Settings Three</string>
+    <string name="settingsfour">Settings Four</string>
+    <string name="settingsfive">Settings Five</string>
+    <string name="settingssix">Settings Six</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="profile">My Profile</string>
+    <string name="userprofile">User Profile</string>
+    <string name="message">MESSAGE</string>
+    <string name="posts">Posts</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Videos</string>
+    <string name="searchhint">Type your search</string>
+    <string name="backpress">Press the back button again to exit</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="aboutus">About Us</string>
+    <string name="tab1">one</string>
+    <string name="tab2">two</string>
+    <string name="tab3">three</string>
+    <string name="tab4">four</string>
+    <string name="tab5">five</string>
+    <string name="nav1">Option one</string>
+    <string name="nav2">Option two</string>
+    <string name="nav3">Option three</string>
+    <string name="nav4">Option four</string>
+    <string name="nav5">Option five</string>
+    <string name="nav6">Option six</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="editprofile">EDIT YOUR PROFILE</string>
+
+    <!-- exoplayer -->
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="text">Text</string>
+    <string name="retry">Retry</string>
+    <string name="selection_disabled">Disabled</string>
+    <string name="selection_default">Default</string>
+    <string name="selection_default_none">Default (none)</string>
+    <string name="unexpected_intent_action">Unexpected intent action<xliff:g id="action">%1$s</xliff:g></string>
+    <string name="enable_random_adaptation">Enable random adaptation</string>
+    <string name="error_drm_not_supported">Protected content not supported on API levels below 18</string>
+    <string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
+    <string name="error_drm_unknown">An unknown DRM error occurred</string>
+    <string name="error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="error_querying_decoders">Unable to query device decoders</string>
+    <string name="error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+    <string name="error_unsupported_video">Please try Again, video tracks streaming error</string>
+    <string name="error_unsupported_audio">Please try Again, audio tracks error</string>
+    <string name="storage_permission_denied">Permission to access storage was denied</string>
+    <string name="sample_list_load_error">One or more sample lists failed to load</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../android-ExoPlayerV2Lib/android-ExoPlayerV2Lib.iml" filepath="$PROJECT_DIR$/../android-ExoPlayerV2Lib/android-ExoPlayerV2Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-InfinitePageIndicator-library/android-InfinitePageIndicator-library.iml" filepath="$PROJECT_DIR$/../android-InfinitePageIndicator-library/android-InfinitePageIndicator-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-KenBurnsViewLib/android-KenBurnsViewLib.iml" filepath="$PROJECT_DIR$/../android-KenBurnsViewLib/android-KenBurnsViewLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-RecyclerFastScrollLib/android-RecyclerFastScrollLib.iml" filepath="$PROJECT_DIR$/../android-RecyclerFastScrollLib/android-RecyclerFastScrollLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-ViewPagerIndicator-lib/android-ViewPagerIndicator-lib.iml" filepath="$PROJECT_DIR$/../android-ViewPagerIndicator-lib/android-ViewPagerIndicator-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-support-v7-appcompat/android-support-v7-appcompat.iml" filepath="$PROJECT_DIR$/../android-support-v7-appcompat/android-support-v7-appcompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-support-v7-cardview/android-support-v7-cardview.iml" filepath="$PROJECT_DIR$/../android-support-v7-cardview/android-support-v7-cardview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-support-v7-design/android-support-v7-design.iml" filepath="$PROJECT_DIR$/../android-support-v7-design/android-support-v7-design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-support-v7-recyclerview/android-support-v7-recyclerview.iml" filepath="$PROJECT_DIR$/../android-support-v7-recyclerview/android-support-v7-recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/workTemplate.iml" filepath="$PROJECT_DIR$/workTemplate.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.iconnic.worktemplate.SettingsActivity" >
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/white">
+        
+       <ImageView
+        android:id="@+id/close"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:padding="8dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/close"/>
+
+        <com.iconnic.worktemplate.views.HeaderTextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="@string/settings"
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="@string/settingsdetail"
+            android:textColor="@color/unselected"
+            android:textSize="8dp" />
+
+        <com.iconnic.worktemplate.views.CircleImageView
+            android:visibility="gone"
+            android:id="@+id/pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="12dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher"
+            app:civ_border_color="@color/white"
+			app:civ_border_width="1dp"/>
+
+    </RelativeLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="32dp" android:background="@color/light"/>
+    
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/light"/>
+   <RelativeLayout android:id="@+id/oneline" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder1" />
+        
+        <ImageView
+            android:id="@+id/otherpic2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:background="@drawable/profile" />
+        
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic2"
+            android:text="@string/settingsone"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:textSize="12dp" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:layout_toRightOf="@+id/pic2"
+            android:text="@string/settingsone"
+            android:textColor="@color/unselected"
+            android:layout_marginTop="4dp"
+            android:textSize="8dp" />
+        
+    </RelativeLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="32dp" android:background="@color/light"/>
+    
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/light"/>
+    <LinearLayout android:id="@+id/twoline" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/profile" />
+        
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/settingstwo"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/light"/>
+    
+    <LinearLayout android:id="@+id/threeline" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/pic4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/profile" />
+        
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/settingsthree"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="32dp" android:background="@color/light"/>
+    
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/white">
+    	<View android:layout_width="match_parent"  android:layout_height="1dp" android:background="@color/light"/>
+	    
+	    <LinearLayout android:layout_marginTop="12dp" android:weightSum="8" android:background="@color/white" android:layout_marginRight="16dp" android:layout_marginLeft="16dp" android:layout_width="match_parent" android:layout_height="24dp" android:orientation="horizontal">
+	    
+	    <TextView android:layout_weight="7" android:layout_marginLeft="8dp" android:text="@string/settingsfour" android:textColor="@color/black" android:textSize="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	    
+	    <Switch android:id="@+id/one" android:layout_weight="1" android:layout_gravity="right" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	    
+	    </LinearLayout>
+	    <View android:layout_width="match_parent" android:layout_marginTop="8dp" android:layout_height="1dp" android:background="@color/light"/>
+	    
+	    <LinearLayout android:layout_marginTop="12dp" android:weightSum="8" android:background="@color/white" android:layout_marginRight="16dp" android:layout_marginLeft="16dp" android:layout_width="match_parent" android:layout_height="24dp" android:orientation="horizontal">
+	    
+	    <TextView android:layout_weight="7" android:layout_marginLeft="8dp" android:text="@string/settingsfive" android:textColor="@color/black" android:textSize="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	    
+	    <Switch android:id="@+id/two" android:layout_weight="1" android:layout_gravity="right" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	    
+	    </LinearLayout>
+	    <View android:layout_width="match_parent" android:layout_marginTop="8dp" android:layout_height="1dp" android:background="@color/light"/>
+	    
+	    <LinearLayout android:layout_marginTop="12dp" android:weightSum="8" android:background="@color/white" android:layout_marginRight="16dp" android:layout_marginLeft="16dp" android:layout_width="match_parent" android:layout_height="24dp" android:orientation="horizontal">
+	    
+	    <TextView android:layout_weight="7" android:layout_marginLeft="8dp" android:text="@string/settingssix" android:textColor="@color/black" android:textSize="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	    
+	    <Switch android:id="@+id/three" android:layout_weight="1" android:layout_gravity="right" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	    
+	    </LinearLayout>
+    	<View android:layout_width="match_parent" android:layout_marginTop="8dp" android:layout_height="1dp" android:background="@color/light"/>
+	</LinearLayout>
+</LinearLayout>

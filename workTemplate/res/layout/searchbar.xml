@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"  
+    android:layout_width="match_parent" android:layout_height="wrap_content" 
+    android:clickable="true" 
+	android:orientation="vertical" android:id="@+id/searchbar">
+	
+    <LinearLayout android:clickable="true"  android:layout_width="match_parent" android:layout_height="52dp" android:orientation="horizontal" android:background="@color/white">
+        <LinearLayout android:clickable="true"  android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:weightSum="3"
+            android:orientation="horizontal" android:background="@color/white" android:layout_marginLeft="6dp" android:layout_marginRight="6dp">
+            
+            <ImageView 
+                android:clickable="true" 
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/search"/>
+            
+            <EditText 
+                android:id="@+id/input"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:paddingLeft="8dp"
+                android:background="@drawable/curve"
+                android:textColorHint="@color/light"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:hint="@string/searchhint"/>
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+	<!-- 
+	<SearchView
+	    android:clickable="true"
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8dp"
+            android:background="@drawable/gradient_2"
+            android:textColor="@color/dark"
+            android:visibility="visible"
+            android:gravity="center" >
+    </SearchView>
+    <View android:layout_width="match_parent" android:layout_height="4dp" android:background="@drawable/shadow"/>
+    -->
+	
+</LinearLayout>

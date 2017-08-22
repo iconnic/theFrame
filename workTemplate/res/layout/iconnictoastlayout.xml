@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="@color/black"
+    app:cardPreventCornerOverlap="false"
+    android:layout_margin="1dp"
+    card_view:cardElevation="1dp"
+ 	card_view:cardMaxElevation="0dp"
+    card_view:cardCornerRadius="12dp"
+    card_view:contentPadding="0dp">
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@color/black"
+	    android:orientation="vertical">
+
+		<com.iconnic.worktemplate.views.IconnicTextView 
+	        android:id="@+id/msg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="16dp"
+	        android:textSize="10dp"
+	        android:text="Toast Text Here"
+	        android:textColor="@color/white"/>
+
+	</LinearLayout>
+	
+</android.support.v7.widget.CardView>

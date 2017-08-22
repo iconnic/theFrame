@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:app="http://schemas.android.com/apk/res-auto"
+	    android:layout_width="match_parent"
+	    android:background="@color/white"
+	    android:id="@+id/toolondeck"
+	    android:layout_height="58dp">
+
+    <com.iconnic.worktemplate.views.HeaderTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+    
+    <ImageView android:id="@+id/left"
+         android:layout_width="28dp"
+       	 android:layout_height="28dp"
+       	 android:background="@drawable/ic_launcher"
+       	 android:layout_marginLeft="16dp"
+       	 android:layout_alignParentLeft="true"
+       	 android:layout_centerVertical="true"/>
+    
+    <ImageView android:id="@+id/right"
+         android:layout_width="28dp"
+       	 android:layout_height="28dp"
+       	 android:background="@drawable/ic_launcher"
+       	 android:layout_marginRight="16dp"
+       	 android:layout_alignParentRight="true"
+       	 android:layout_centerVertical="true"/>
+   
+</RelativeLayout>
